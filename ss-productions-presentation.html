@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS Media Productions - رؤية شاملة للشراكة والتوسع المستقبلي</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Amiri:wght@400;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: #f5f5f5;
+            color: #2c3e50;
+            line-height: 2;
+            font-size: 18px;
+            scroll-behavior: smooth;
+        }
+        
+        .document-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 30px rgba(0,0,0,0.1);
+        }
+        
+        .section {
+            padding: 60px 80px;
+            page-break-inside: avoid;
+        }
+        
+        .section-alt {
+            background: #fafafa;
+        }
+        
+        /* Title Slide */
+        .title-slide {
+            background: linear-gradient(135deg, #1a0404 0%, #4a0e0e 100%);
+            text-align: center;
+        }
+        
+        .logo-container {
+            margin-bottom: 40px;
+        }
+        
+        .main-title {
+            font-size: 3.5em;
+            font-weight: 700;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, #ff6b6b, #ee5a52);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+        
+        @keyframes glow {
+            from { text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 20px rgba(255, 107, 107, 0.5); }
+            to { text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 30px rgba(255, 107, 107, 0.8); }
+        }
+        
+        .subtitle {
+            font-size: 1.8em;
+            color: #ffcccb;
+            font-weight: 300;
+        }
+        
+        /* Karazah themed slides */
+        .karazah-slide {
+            background: linear-gradient(135deg, #c72b32 0%, #e74c3c 100%);
+        }
+        
+        .karazah-title {
+            color: #fff;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        /* Content slides */
+        .slide h2 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: #ff6b6b;
+            border-bottom: 3px solid #ee5a52;
+            padding-bottom: 15px;
+        }
+        
+        .slide h3 {
+            font-size: 1.8em;
+            margin: 30px 0 20px 0;
+            color: #ff9999;
+        }
+        
+        .content-box {
+            background: rgba(255, 255, 255, 0.05);
+            border-right: 4px solid #ff6b6b;
+            padding: 30px;
+            margin: 25px 0;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(255, 107, 107, 0.1), rgba(238, 90, 82, 0.1));
+            border: 2px solid #ff6b6b;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .success-box {
+            background: linear-gradient(135deg, rgba(76, 175, 80, 0.1), rgba(46, 125, 50, 0.1));
+            border-right: 4px solid #4CAF50;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        
+        ul {
+            list-style: none;
+            padding-right: 20px;
+        }
+        
+        ul li {
+            margin: 15px 0;
+            padding-right: 30px;
+            position: relative;
+            font-size: 1.2em;
+        }
+        
+        ul li:before {
+            content: "◄";
+            position: absolute;
+            right: 0;
+            color: #ff6b6b;
+            font-weight: bold;
+        }
+        
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin: 30px 0;
+        }
+        
+        .stat {
+            text-align: center;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+        
+        .stat-number {
+            font-size: 3em;
+            font-weight: 700;
+            color: #ff6b6b;
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 1.3em;
+            color: #ffcccb;
+            margin-top: 10px;
+        }
+        
+        .award-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            color: #000;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.2em;
+            margin: 10px;
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+        }
+        
+        .emphasis {
+            color: #ff6b6b;
+            font-weight: 600;
+        }
+        
+        .section-divider {
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #ff6b6b, transparent);
+            margin: 40px 0;
+        }
+        
+        .project-card {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-right: 3px solid #ff6b6b;
+            transition: transform 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateX(-10px) scale(1.02);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        
+        .project-title {
+            font-size: 1.5em;
+            color: #ff6b6b;
+            margin-bottom: 15px;
+        }
+        
+        .quote-box {
+            background: rgba(199, 43, 50, 0.1);
+            border-right: 5px solid #c72b32;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 10px;
+            font-size: 1.3em;
+            font-style: italic;
+        }
+        
+        .incubator-highlight {
+            background: linear-gradient(135deg, rgba(52, 152, 219, 0.1), rgba(41, 128, 185, 0.1));
+            border: 2px dashed #3498db;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 15px;
+        }
+        
+        .benefit-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .benefit-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .benefit-icon {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #ff6b6b, #ee5a52);
+            border-radius: 10px;
+            animation: fillProgress 2s ease-out;
+        }
+        
+        @keyframes fillProgress {
+            from { width: 0%; }
+            to { width: var(--progress-width); }
+        }
+        
+        .timeline-item {
+            border-left: 3px solid #ff6b6b;
+            padding-left: 25px;
+            margin: 25px 0;
+            position: relative;
+        }
+        
+        .timeline-item::before {
+            content: '●';
+            position: absolute;
+            left: -8px;
+            top: 0;
+            color: #ff6b6b;
+            font-size: 1.2em;
+            background: #2c3e50;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .icon-stat {
+            display: flex;
+            align-items: center;
+            background: rgba(255,255,255,0.05);
+            padding: 20px;
+            border-radius: 15px;
+            margin: 15px 0;
+            transition: transform 0.3s ease;
+        }
+        
+        .icon-stat:hover {
+            transform: translateY(-5px);
+        }
+        
+        .icon-stat .icon {
+            font-size: 2.5em;
+            margin-left: 20px;
+            color: #ff6b6b;
+        }
+        
+        .icon-stat .content {
+            flex: 1;
+        }
+        
+        .icon-stat .title {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #ff6b6b;
+            margin-bottom: 8px;
+        }
+        
+        .icon-stat .description {
+            font-size: 1.1em;
+            color: #ffcccb;
+        }
+        
+        @media print {
+            .slide {
+                page-break-after: always;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .two-column {
+                grid-template-columns: 1fr;
+            }
+            
+            .main-title {
+                font-size: 2.5em;
+            }
+            
+            .slide {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Slide 1: Title -->
+<div class="slide title-slide">
+    <div class="slide-content">
+        <div class="logo-container">
+            <h1 class="main-title">SS Media Productions</h1>
+        </div>
+        <p class="subtitle">رؤية شاملة للشراكة والتوسع المستقبلي</p>
+        <p class="subtitle" style="font-size: 1.3em; margin-top: 30px; color: #ffcccb; opacity: 0.9;">تقرير استراتيجي من أُبَيّ سكر - ديسمبر 2024</p>
+    </div>
+</div>
+
+<!-- Slide 2: Introduction & Context -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>🎆 مقدمة: لماذا هذا التقرير الآن؟</h2>
+        
+        <div class="quote-box">
+            <p style="font-size: 1.3em;">
+                بعد 8 سنوات من العمل المشترك والإنجازات المتميزة، حان الوقت لمناقشة رؤيتنا للمستقبل بوضوح وصراحة.
+            </p>
+        </div>
+        
+        <div class="content-box">
+            <h3>🤔 لماذا هذه المحادثة مهمة؟</h3>
+            <ul style="margin-top: 20px; font-size: 1.1em;">
+                <li><span class="emphasis">غياب الوضوح:</span> لم نحدد بوضوح ما هو مشروع الشركة وما هو عمل شخصي</li>
+                <li><span class="emphasis">تغير الظروف:</span> الاتفاق القديم كان مناسب لعام 2016، لكن الظروف تغيرت</li>
+                <li><span class="emphasis">فرص جديدة:</span> انفتاح سوريا يعطينا فرص استثنائية يجب استغلالها</li>
+                <li><span class="emphasis">حاجة العائلة:</span> أحتاج دخل لإعالة عائلتي بدون ترك الشراكة</li>
+            </ul>
+        </div>
+        
+        <div class="highlight-box">
+            <h3 style="text-align: center; margin-bottom: 20px;">🎯 الهدف من هذا التقرير</h3>
+            <p style="font-size: 1.2em; text-align: center;">
+                ليس طلب تعويض من الشركة، بل وضع إطار واضح يسمح لنا بالعمل بثقة وحماس، ويضمن استمرار نجاح شراكتنا.
+            </p>
+        </div>
+        
+        <div class="content-box">
+            <h3>✨ ما ستجده في هذا التقرير</h3>
+            <div class="two-column">
+                <ul>
+                    <li>مراجعة إنجازاتنا المشتركة</li>
+                    <li>توضيح الوضع الحالي</li>
+                    <li>إطار عمل للمشاريع</li>
+                </ul>
+                <ul>
+                    <li>فرص التوسع في سوريا</li>
+                    <li>المشاريع الجارية</li>
+                    <li>الرؤية المستقبلية</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 3: Our Journey -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>رحلتنا معاً</h2>
+        
+        <div class="content-box">
+            <h3>٨ سنوات من الإنجازات</h3>
+            <p style="font-size: 1.2em; margin-top: 20px;">
+                منذ عام 2016، بنينا معاً شركة إنتاج إعلامي متكاملة تجمع بين الإبداع والتقنية، وأنتجنا محتوى حاز على جوائز عالمية واعتراف دولي.
+            </p>
+        </div>
+        
+        <div class="stat">
+            <span class="stat-number">8</span>
+            <span class="stat-label">سنوات من الشراكة الناجحة</span>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 3: Karazah Achievements -->
+<div class="slide karazah-slide">
+    <div class="slide-content">
+        <h2 class="karazah-title">🍒 إنجازات قناة كرزة</h2>
+        
+        <div class="two-column">
+            <div class="stat" style="background: rgba(255, 255, 255, 0.1);">
+                <span class="stat-number">715K+</span>
+                <span class="stat-label">مشترك على يوتيوب</span>
+            </div>
+            
+            <div class="stat" style="background: rgba(255, 255, 255, 0.1);">
+                <span class="stat-number">301M+</span>
+                <span class="stat-label">مشاهدة إجمالية</span>
+            </div>
+        </div>
+        
+        <div class="highlight-box" style="background: rgba(255, 255, 255, 0.15); border-color: #FFD700;">
+            <div style="text-align: center;">
+                <div class="award-badge">🏆 جائزة محمد بن راشد للغة العربية 2023</div>
+                <p style="font-size: 1.3em; margin-top: 20px;">
+                    فزنا في فئة "الإعلام والاتصال" من بين <span class="emphasis">1,300+ مشاركة</span> من <span class="emphasis">65 دولة</span>
+                </p>
+            </div>
+        </div>
+        
+        <div class="success-box" style="border-color: #fff;">
+            <h3 style="color: #fff;">محتوى مستمر وعالي الجودة</h3>
+            <ul>
+                <li>إنتاج أغاني عربية وإنجليزية بشكل مستمر</li>
+                <li>رسوم متحركة ثلاثية الأبعاد احترافية</li>
+                <li>محتوى تعليمي موثوق للأطفال</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 4: Current Efforts -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>جهود متواصلة وعمل دؤوب</h2>
+        
+        <div class="quote-box">
+            "لم يتوقف العمل يوماً. نجاحي هو نجاح الشركة، سواء تم العمل باسمي الشخصي كمنتج أو من خلال الشركة كجهة تنفيذية."
+        </div>
+        
+        <div class="content-box">
+            <h3>استثمار الوقت والخبرة</h3>
+            <p style="font-size: 1.2em; margin-top: 15px;">
+                كل مشروع يتطلب ساعات طويلة من البحث والتخطيط والتنفيذ. هذا الجهد المستمر هو استثمار في مستقبل الشركة ونموها.
+            </p>
+        </div>
+        
+        <ul style="margin-top: 30px; font-size: 1.1em;">
+            <li>بحث وتطوير مستمر للمشاريع الجديدة</li>
+            <li>بناء علاقات مع الجهات الرسمية والوزارات</li>
+            <li>تقديم مقترحات احترافية ومدروسة</li>
+            <li>الحفاظ على جودة الإنتاج والمحتوى</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Slide 5: Current Projects & Proposals -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>المشاريع والمقترحات الحالية</h2>
+        
+        <div class="project-card">
+            <div class="project-title">🎵 النشيد الوطني السوري</div>
+            <p style="font-size: 1.1em;">
+                مشروع تاريخي يحدث مرة في العمر - إنتاج نسخة احترافية من النشيد الوطني السوري.
+            </p>
+            <p style="margin-top: 15px; color: #ffcccb;">
+                <span class="emphasis">الدور:</span> أُبَيّ سكر - منتج منفرد | SS Productions - استوديو تنفيذي
+            </p>
+            <p style="margin-top: 10px; font-size: 1em; color: #ff6b6b;">
+                🎤 مشروع تاريخي يحدث مرة واحدة في العمر
+            </p>
+        </div>
+        
+        <div class="project-card">
+            <div class="project-title">📺 وزارة الإعلام السورية</div>
+            <p style="font-size: 1.1em;">
+                تم إرسال مقترح متكامل، وتم الرد بالموافقة على الاجتماع.
+            </p>
+            <p style="margin-top: 15px; color: #ffcccb;">
+                <span class="emphasis">الحالة:</span> في انتظار تحديد موعد الاجتماع
+            </p>
+        </div>
+        
+        <div class="project-card">
+            <div class="project-title">👶 وزارة الشؤون الاجتماعية والعمل</div>
+            <p style="font-size: 1.1em;">
+                تقديم خبرتنا في إعلام الأطفال لخدمة البرامج الاجتماعية.
+            </p>
+            <p style="margin-top: 15px; color: #ffcccb;">
+                <span class="emphasis">الحالة:</span> طلبوا اجتماع - جاري العمل على المقترح التفصيلي
+            </p>
+        </div>
+        
+        <div class="project-card">
+            <div class="project-title">🔊 وزارة الداخلية</div>
+            <p style="font-size: 1.1em;">
+                دراسة تقنية متخصصة لمعدات الصوت المباشر والبيئة الصوتية.
+            </p>
+            <p style="margin-top: 15px; color: #ffcccb;">
+                <span class="emphasis">التخصص:</span> هندسة صوتية تقنية متقدمة (براءة أُبَيّ سكر)
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 6: Understanding Brand vs Company -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>توضيح: العلامة الشخصية والشركة</h2>
+        
+        <div class="two-column">
+            <div class="content-box">
+                <h3 style="color: #ff6b6b;">🎯 العلامة الشخصية "أُبَيّ سكر"</h3>
+                <ul>
+                    <li>خبرة 25+ سنة في الإعلام</li>
+                    <li>مؤسس راديو الكل (500 ألف مستمع)</li>
+                    <li>فائز بجائزة أكاديمية الطلاب</li>
+                    <li>شهرة إعلامية راسخة</li>
+                    <li>شبكة علاقات واسعة</li>
+                </ul>
+            </div>
+            
+            <div class="content-box">
+                <h3 style="color: #3498db;">🏢 SS Media Productions</h3>
+                <ul>
+                    <li>شركة إنتاج احترافية</li>
+                    <li>استوديو متكامل</li>
+                    <li>معدات وبرامج متطورة</li>
+                    <li>قناة كرزة الحائزة على جوائز</li>
+                    <li>فريق إنتاج محترف</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="highlight-box">
+            <p style="font-size: 1.3em; text-align: center;">
+                <span class="emphasis">المبدأ الأساسي:</span> عندما يأتي المشروع بسبب العلامة الشخصية، يمكن إنجازه بشكل مستقل مع استخدام موارد الشركة (بنظام إيجار). عندما يأتي بسبب سمعة الشركة، فهو مشروع الشركة بالكامل.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 7: Types of Projects Framework -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>إطار عمل واضح للمشاريع</h2>
+        
+        <div class="project-card" style="border-color: #4CAF50;">
+            <div class="project-title" style="color: #4CAF50;">النوع الأول: مشاريع الشركة</div>
+            <ul style="margin-top: 15px;">
+                <li>المشروع جاء من خلال قناة كرزة أو SS Productions</li>
+                <li>العميل يطلب الشركة بالاسم</li>
+                <li>يتطلب علامة الشركة التجارية</li>
+            </ul>
+            <p style="margin-top: 15px; color: #ffcccb;">
+                <span class="emphasis">النتيجة:</span> الإيرادات للشركة، توزيع 60/40
+            </p>
+        </div>
+        
+        <div class="project-card" style="border-color: #3498db;">
+            <div class="project-title" style="color: #3498db;">النوع الثاني: مشاريع شخصية</div>
+            <ul style="margin-top: 15px;">
+                <li>المشروع جاء من خلال شبكة أُبَيّ سكر الشخصية</li>
+                <li>العميل يطلب "أُبَيّ سكر" كمنتج أو استشاري</li>
+                <li>لا يتنافس مع خدمات الشركة</li>
+            </ul>
+            <p style="margin-top: 15px; color: #ffcccb;">
+                <span class="emphasis">النتيجة:</span> أُبَيّ سكر يتعاقد مباشرة، والشركة تستفيد من إيجار المعدات (إن احتاج المشروع)
+            </p>
+        </div>
+        
+        <div class="project-card" style="border-color: #9b59b6;">
+            <div class="project-title" style="color: #9b59b6;">النوع الثالث: مشاريع مشتركة</div>
+            <ul style="margin-top: 15px;">
+                <li>يمكن أن يذهب في أي اتجاه</li>
+                <li>نناقشه معاً حسب الحالة</li>
+                <li>نتفق على أفضل هيكلة تخدم المشروع</li>
+            </ul>
+            <p style="margin-top: 15px; color: #ffcccb;">
+                <span class="emphasis">النتيجة:</span> مرونة واتفاق حسب كل حالة
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 8: Equipment & Studio Usage -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>استخدام المعدات والاستوديو</h2>
+        
+        <div class="two-column">
+            <div class="success-box">
+                <h3>لمشاريع الشركة</h3>
+                <p style="font-size: 1.1em; margin-top: 15px;">
+                    استخدام حر ومفتوح لكافة موارد الشركة (كشريك 40%)
+                </p>
+            </div>
+            
+            <div class="content-box">
+                <h3>للمشاريع الشخصية</h3>
+                <p style="font-size: 1.1em; margin-top: 15px;">
+                    الاستوديو: $50/ساعة<br>
+                    أو معدل شهري للمشاريع الكبيرة
+                </p>
+                <p style="margin-top: 15px; color: #ffcccb;">
+                    هذا يعني دخل إضافي للشركة عند استخدام المعدات
+                </p>
+            </div>
+        </div>
+        
+        <div class="highlight-box">
+            <h3 style="margin-bottom: 20px;">💡 الفائدة للطرفين</h3>
+            <ul>
+                <li><span class="emphasis">للشركة:</span> إيرادات إضافية من تأجير المعدات والاستوديو</li>
+                <li><span class="emphasis">لأُبَيّ سكر:</span> الوصول إلى معدات احترافية دون الحاجة لشراء معدات خاصة</li>
+                <li><span class="emphasis">للعملاء:</span> جودة عالية باستخدام أفضل المعدات</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 9: Syria Expansion Strategy -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>🇸🇾 استراتيجية التوسع في سوريا</h2>
+        
+        <div class="timeline-item">
+            <h4 style="color: #ff6b6b; margin-bottom: 10px;">📅 المرحلة الأولى (3-6 أشهر)</h4>
+            <p>افتتاح مكتب دمشق في Tech Town + إنهاء المشاريع الحكومية الثلاثة</p>
+        </div>
+        
+        <div class="timeline-item">
+            <h4 style="color: #ff6b6b; margin-bottom: 10px;">📅 المرحلة الثانية (6-12 شهر)</h4>
+            <p>توظيف كادر محلي + بناء شراكات مع شركات سعودية وخليجية</p>
+        </div>
+        
+        <div class="timeline-item">
+            <h4 style="color: #ff6b6b; margin-bottom: 10px;">📅 المرحلة الثالثة (السنة الثانية)</h4>
+            <p>إنشاء استوديو كامل + توسع في الأسواق العربية المجاورة</p>
+        </div>
+        
+        <div class="highlight-box">
+            <h3 style="text-align: center; margin-bottom: 25px;">سوريا: محور الأعمال الجديدة</h3>
+            <p style="font-size: 1.2em; text-align: center;">
+                سوريا تمثل فرصة استراتيجية هائلة مع إمكانيات نمو غير محدودة في السوق الإعلامية والإنتاجية
+            </p>
+        </div>
+        
+        <div class="benefit-grid">
+            <div class="benefit-item">
+                <div class="benefit-icon">💰</div>
+                <h4 style="color: #ff6b6b;">تكاليف منخفضة</h4>
+                <p>إيجار المكتب: $100/شهر فقط</p>
+            </div>
+            
+            <div class="benefit-item">
+                <div class="benefit-icon">👥</div>
+                <h4 style="color: #ff6b6b;">عمالة ماهرة</h4>
+                <p>كوادر محترفة بتكاليف تنافسية</p>
+            </div>
+            
+            <div class="benefit-item">
+                <div class="benefit-icon">🎬</div>
+                <h4 style="color: #ff6b6b;">إنتاج أقل تكلفة</h4>
+                <p>تخفيض تكاليف الإنتاج بشكل كبير</p>
+            </div>
+            
+            <div class="benefit-item">
+                <div class="benefit-icon">🌍</div>
+                <h4 style="color: #ff6b6b;">موقع استراتيجي</h4>
+                <p>بوابة للأسواق العربية</p>
+            </div>
+        </div>
+        
+        <div class="content-box" style="margin-top: 30px;">
+            <h3>إمكانية تحقيق التوازن المالي</h3>
+            <p style="font-size: 1.1em; margin-top: 15px;">
+                يمكن تحقيق هذا التوسع من خلال تقليص بعض المصاريف الحالية والاشتراكات في الولايات المتحدة، مع الحفاظ على نفس الميزانية الإجمالية.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 10: Tech Town Incubator -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>🚀 Tech Town - حاضنة الأعمال في دمشق</h2>
+        
+        <div class="incubator-highlight">
+            <h3 style="color: #3498db; margin-bottom: 20px;">لماذا Tech Town؟</h3>
+            <p style="font-size: 1.2em; margin-bottom: 20px;">
+                حاضنة أعمال استراتيجية تضم كبرى الشركات والجهات الحكومية والسعودية التي ستكون جزءاً من المشهد الجديد في سوريا.
+            </p>
+        </div>
+        
+        <div class="benefit-grid">
+            <div class="benefit-item">
+                <div class="benefit-icon">🏢</div>
+                <h4>مساحات مجهزة</h4>
+                <p>مكاتب حديثة وجاهزة للعمل</p>
+            </div>
+            
+            <div class="benefit-item">
+                <div class="benefit-icon">⚡</div>
+                <h4>كهرباء 24/7</h4>
+                <p>طاقة مستمرة دون انقطاع</p>
+            </div>
+            
+            <div class="benefit-item">
+                <div class="benefit-icon">🌐</div>
+                <h4>إنترنت عالي السرعة</h4>
+                <p>اتصال مستقر وسريع</p>
+            </div>
+            
+            <div class="benefit-item">
+                <div class="benefit-icon">🤝</div>
+                <h4>شبكة أعمال</h4>
+                <p>علاقات مع كبرى الشركات</p>
+            </div>
+            
+            <div class="benefit-item">
+                <div class="benefit-icon">📊</div>
+                <h4>قاعات اجتماعات</h4>
+                <p>مرافق احترافية للقاءات</p>
+            </div>
+            
+            <div class="benefit-item">
+                <div class="benefit-icon">💼</div>
+                <h4>خدمات إدارية</h4>
+                <p>دعم كامل للأعمال</p>
+            </div>
+        </div>
+        
+        <div class="highlight-box">
+            <p style="font-size: 1.2em; text-align: center;">
+                <span class="emphasis">ملاحظة:</span> سيتم إضافة تفاصيل إضافية عن الحاضنة وخدماتها المحددة قريباً
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 11: Strategic Advantages -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>المزايا الاستراتيجية للتواجد في سوريا</h2>
+        
+        <div class="icon-stat">
+            <div class="content">
+                <div class="title">🏛️ الوصول المباشر للجهات الحكومية</div>
+                <div class="description">التواجد الفعلي في دمشق يسهل التواصل المباشر مع الوزارات والجهات الرسمية</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="--progress-width: 85%; width: 85%;"></div>
+                </div>
+                <small style="color: #ff6b6b;">85% تحسن في معدل الاستجابة المتوقع</small>
+            </div>
+            <div class="icon">🎯</div>
+        </div>
+        
+        <div class="icon-stat">
+            <div class="content">
+                <div class="title">🏢 المصداقية في السوق المحلي</div>
+                <div class="description">وجود مكتب في العاصمة يعطي الشركة مصداقية أكبر ويظهر الجدية والالتزام</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="--progress-width: 90%; width: 90%;"></div>
+                </div>
+                <small style="color: #ff6b6b;">90% زيادة في الثقة المؤسسية</small>
+            </div>
+            <div class="icon">⭐</div>
+        </div>
+        
+        <div class="icon-stat">
+            <div class="content">
+                <div class="title">🌍 التوسع في الأسواق العربية</div>
+                <div class="description">سوريا تمثل نقطة انطلاق مثالية للوصول إلى الأسواق العربية المجاورة والخليجية</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="--progress-width: 75%; width: 75%;"></div>
+                </div>
+                <small style="color: #ff6b6b;">75% من الأسواق العربية قابلة للوصول</small>
+            </div>
+            <div class="icon">🚀</div>
+        </div>
+        
+        <div class="icon-stat">
+            <div class="content">
+                <div class="title">💰 الاستفادة من الفرص الجديدة</div>
+                <div class="description">مع بداية إعادة الإعمار والانفتاح، ستكون هناك فرص هائلة للشركات الإعلامية</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="--progress-width: 95%; width: 95%;"></div>
+                </div>
+                <small style="color: #ff6b6b;">95% نمو متوقع في السوق الإعلامي</small>
+            </div>
+            <div class="icon">📈</div>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 12: Financial Model -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>النموذج المالي المقترح</h2>
+        
+        <div class="two-column">
+            <div class="content-box">
+                <h3>التكاليف الإضافية</h3>
+                <ul>
+                    <li>إيجار المكتب في دمشق: $100/شهر</li>
+                    <li>خدمات الحاضنة: تكاليف رمزية</li>
+                    <li>تكاليف تشغيل أساسية</li>
+                </ul>
+            </div>
+            
+            <div class="success-box">
+                <h3>التوفير المتوقع</h3>
+                <ul>
+                    <li>تقليل الاشتراكات الأمريكية</li>
+                    <li>تكاليف إنتاج أقل في سوريا</li>
+                    <li>عمالة ماهرة بأسعار تنافسية</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="highlight-box">
+            <h3 style="text-align: center; margin-bottom: 20px;">⚖️ التوازن المالي</h3>
+            <p style="font-size: 1.2em; text-align: center;">
+                يمكن إدارة التوسع ضمن الميزانية الحالية من خلال إعادة توزيع المصروفات بذكاء، مع الاستفادة من الفرصة الاستراتيجية الكبيرة في السوق السوري.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 13: Practical Examples -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>أمثلة عملية على تطبيق الإطار</h2>
+        
+        <div class="project-card" style="border-color: #4CAF50;">
+            <div class="project-title" style="color: #4CAF50;">مثال 1: مشروع تعليمي للأطفال من وزارة التربية</div>
+            <ul>
+                <li><span class="emphasis">المصدر:</span> سمعة كرزة + شبكة أُبَيّ سكر</li>
+                <li><span class="emphasis">التصنيف:</span> مشروع الشركة (يناسب تخصص كرزة)</li>
+                <li><span class="emphasis">النتيجة:</span> توزيع 60/40، مع إمكانية رسوم إنتاج لأُبَيّ سكر إن كان المشروع كبير</li>
+            </ul>
+        </div>
+        
+        <div class="project-card" style="border-color: #3498db;">
+            <div class="project-title" style="color: #3498db;">مثال 2: هندسة صوتية لحفل موسيقي</div>
+            <ul>
+                <li><span class="emphasis">المصدر:</span> سمعة أُبَيّ سكر كمهندس صوت</li>
+                <li><span class="emphasis">التصنيف:</span> مشروع شخصي (لا علاقة بمحتوى الأطفال)</li>
+                <li><span class="emphasis">النتيجة:</span> أُبَيّ سكر يتعاقد مباشرة، الشركة لا تشارك</li>
+            </ul>
+        </div>
+        
+        <div class="project-card" style="border-color: #9b59b6;">
+            <div class="project-title" style="color: #9b59b6;">مثال 3: استشارات إعلامية لمنظمة دولية</div>
+            <ul>
+                <li><span class="emphasis">المصدر:</span> خبرة أُبَيّ سكر الإعلامية</li>
+                <li><span class="emphasis">التصنيف:</span> مشروع شخصي أو مشترك (حسب الحاجة)</li>
+                <li><span class="emphasis">النتيجة:</span> نناقش الخيار الأفضل حسب المشروع</li>
+            </ul>
+        </div>
+        
+        <div class="project-card" style="border-color: #e74c3c;">
+            <div class="project-title" style="color: #e74c3c;">مثال 4: النشيد الوطني السوري</div>
+            <ul>
+                <li><span class="emphasis">المصدر:</span> فرصة تاريخية من خلال أُبَيّ سكر</li>
+                <li><span class="emphasis">التصنيف:</span> مشروع شخصي مع SS كاستوديو تنفيذي</li>
+                <li><span class="emphasis">النتيجة:</span> أُبَيّ سكر المنتج، SS تحصل على رسوم الاستوديو والمعدات</li>
+            </ul>
+        </div>
+        
+        <div class="project-card" style="border-color: #f39c12;">
+            <div class="project-title" style="color: #f39c12;">مثال 5: دراسة معدات صوتية - وزارة الداخلية</div>
+            <ul>
+                <li><span class="emphasis">المصدر:</span> خبرة أُبَيّ سكر في الهندسة الصوتية</li>
+                <li><span class="emphasis">التصنيف:</span> مشروع شخصي (تخصص تقني لا علاقة له بمحتوى الأطفال)</li>
+                <li><span class="emphasis">النتيجة:</span> أُبَيّ سكر يتعاقد مباشرة، بدون مشاركة الشركة</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 14: Fairness and Flexibility -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>العدالة والمرونة</h2>
+        
+        <div class="quote-box">
+            <div style="text-align: center; margin-bottom: 20px;">
+                <div style="font-size: 3em;">🤝</div>
+                <h3 style="color: #c72b32; margin: 15px 0;">فلسفة المرونة والعدالة</h3>
+            </div>
+            <p style="font-size: 1.3em; text-align: center;">
+                "هدفنا ليس إنشاء قواعد صارمة، بل وضع إطار واضح يسمح لكلينا بالعمل بثقة ودون قلق"
+            </p>
+        </div>
+        
+        <div class="content-box">
+            <h3>🤝 المرونة في التطبيق</h3>
+            <ul>
+                <li>المشاريع الغامضة: نناقشها معاً</li>
+                <li>الفرص التي تفيد الشركة: أعرضها عليك أولاً</li>
+                <li>استخدام المعدات: نتفق على ترتيبات عادلة</li>
+                <li>المواقف غير المريحة: نتحدث عنها بصراحة</li>
+            </ul>
+        </div>
+        
+        <div class="content-box">
+            <h3>⚖️ مبدأ العدالة الأساسي</h3>
+            <p style="font-size: 1.2em; margin-top: 15px;">
+                إذا جاء المشروع <span class="emphasis">بسبب سمعة الشركة أو شبكتها</span> → مشروع الشركة<br><br>
+                إذا جاء <span class="emphasis">بسبب علامتي الشخصية أو شبكتي</span> → يمكنني العمل عليه مستقلاً
+            </p>
+        </div>
+        
+        <div class="highlight-box">
+            <div style="text-align: center;">
+                <div style="font-size: 2.5em; margin-bottom: 20px;">🎆</div>
+                <p style="font-size: 1.3em;">
+                    <span class="emphasis">الهدف النهائي:</span> إبقاء كلانا متحمسين ومتفائلين، مع تعزيز الدافعية والحماس للعمل المشترك
+                </p>
+                <p style="font-size: 1.1em; margin-top: 15px; opacity: 0.9;">
+                    ✨ شراكة قوية = أطراف متحمسة + حدود واضحة + مرونة في التطبيق ✨
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 15: Continuous Commitment -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>التزام مستمر تجاه الشركة</h2>
+        
+        <div class="success-box">
+            <h3>ما سأستمر في فعله</h3>
+            <ul>
+                <li>المساهمة في إنتاج محتوى كرزة بشكل مستمر</li>
+                <li>البحث عن فرص تفيد الشركة</li>
+                <li>استخدام خبرتي لتطوير الأعمال</li>
+                <li>الحفاظ على جودة الإنتاج العالية</li>
+                <li>البحث عن مستثمرين لتوسيع المشروع</li>
+            </ul>
+        </div>
+        
+        <div class="content-box">
+            <h3>ما أحتاجه</h3>
+            <ul>
+                <li>الحرية في العمل على مشاريع شخصية لإعالة عائلتي</li>
+                <li>وضوح في التوقعات والحدود</li>
+                <li>عدم الشعور بالذنب عند أخذ عمل خارجي</li>
+                <li>الثقة في أنني أعمل لصالح مستقبلنا المشترك</li>
+            </ul>
+        </div>
+        
+        <div class="highlight-box">
+            <p style="font-size: 1.2em; text-align: center;">
+                هذا الإطار يسمح لي بالبقاء متحمساً ومساهماً، مع الحفاظ على الدافعية والحماس للعمل المشترك
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 16: Long-term Vision -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>الرؤية المستقبلية</h2>
+        
+        <div class="two-column">
+            <div class="content-box">
+                <h3>على المدى القصير</h3>
+                <ul>
+                    <li>افتتاح مكتب في دمشق</li>
+                    <li>متابعة المشاريع الحكومية</li>
+                    <li>الاستفادة من الفرص السورية</li>
+                    <li>إنتاج محتوى كرزة مستمر</li>
+                </ul>
+            </div>
+            
+            <div class="content-box">
+                <h3>على المدى البعيد</h3>
+                <ul>
+                    <li>جلب مستثمرين جدد</li>
+                    <li>توسيع العمليات الإنتاجية</li>
+                    <li>فتح أسواق عربية جديدة</li>
+                    <li>تطوير علامات تجارية جديدة</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="highlight-box">
+            <h3 style="text-align: center; margin-bottom: 20px;">💫 الهدف النهائي</h3>
+            <p style="font-size: 1.3em; text-align: center;">
+                بناء شركة إنتاج إعلامي رائدة في المنطقة العربية، مع الحفاظ على شراكة قوية ومستدامة ومربحة للطرفين
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 17: Key Points Summary -->
+<div class="slide">
+    <div class="slide-content">
+        <h2>النقاط الرئيسية</h2>
+        
+        <div class="content-box">
+            <h3>1️⃣ إطار واضح للمشاريع</h3>
+            <p>تصنيف واضح: مشاريع الشركة، مشاريع شخصية، أو مشتركة حسب مصدر الفرصة</p>
+        </div>
+        
+        <div class="content-box">
+            <h3>2️⃣ استخدام عادل للموارد</h3>
+            <p>مشاريع الشركة = استخدام حر | مشاريع شخصية = رسوم إيجار تفيد الشركة</p>
+        </div>
+        
+        <div class="content-box">
+            <h3>3️⃣ توسع استراتيجي في سوريا</h3>
+            <p>مكتب في دمشق بتكلفة معقولة، في حاضنة أعمال استراتيجية، مع فرص حكومية كبيرة</p>
+        </div>
+        
+        <div class="content-box">
+            <h3>4️⃣ التزام مستمر</h3>
+            <p>استمرار العمل على كرزة والبحث عن فرص للشركة، مع حرية العمل الشخصي</p>
+        </div>
+        
+        <div class="content-box">
+            <h3>5️⃣ مرونة وعدالة</h3>
+            <p>مناقشة الحالات الغامضة معاً، والعمل بروح الشراكة والاحترام المتبادل</p>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 18: Closing -->
+<div class="slide title-slide">
+    <div class="slide-content">
+        <h2 style="color: #ff6b6b; font-size: 2.8em; margin-bottom: 30px;">معاً نحو مستقبل أفضل</h2>
+        
+        <div class="quote-box" style="background: linear-gradient(135deg, rgba(76, 175, 80, 0.2), rgba(46, 125, 50, 0.1)); border-color: #4CAF50;">
+            <div style="text-align: center; margin-bottom: 25px;">
+                <div style="font-size: 3em;">🎆</div>
+                <h3 style="color: #4CAF50; margin: 15px 0;">الخلاصة والرؤية</h3>
+            </div>
+            <p style="font-size: 1.3em; text-align: center;">
+                "لدينا شركة <span class="emphasis">حائزة على جوائز عالمية</span>، وعلامة تجارية قوية، وفرص <span class="emphasis">هائلة في سوريا</span>. 
+                كل ما نحتاجه هو <span class="emphasis">وضوح في التوقعات</span> و<span class="emphasis">ثقة متبادلة</span>."
+            </p>
+            <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.1); border-radius: 10px;">
+                <div style="text-align: center; font-size: 1.1em;">
+                    🤝 <strong>هذه ليست مجرد شراكة عمل، بل رؤية مشتركة للمستقبل</strong>
+                    <br><br>
+                    🌟 <em>معاً، يمكننا بناء إمبراطورية إعلامية في العالم العربي</em> 🌟
+                </div>
+            </div>
+        </div>
+        
+        <p style="font-size: 1.5em; margin-top: 40px; color: #ffcccb;">
+            شكراً لثقتك وإيمانك بهذا المشروع 🙏
+        </p>
+        
+        <div style="margin-top: 50px;">
+            <p style="font-size: 1.3em; color: #ff6b6b;">SS Media Productions</p>
+            <p style="font-size: 1.1em; margin-top: 10px;">www.ss-prod.com</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
