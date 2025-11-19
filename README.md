@@ -6,7 +6,7 @@ This project contains a comprehensive strategic report for restructuring the par
 ## Project Background
 - **Company**: SS Media Productions - 3D Animation & Visual Effects Studio
 - **Brand**: Karazah Channel (YouTube kids' educational content)
-- **Partnership**: 8-year collaboration (60% capital partner / 40% creative partner)
+- **Partnership**: 8-year collaboration (50/50 partnership with 60/40 distributions until capital recovery)
 - **Achievement**: Mohammed Bin Rashid Arabic Language Award Winner (2023)
 
 ## Report Contents
@@ -32,6 +32,6 @@ To establish clear boundaries and expectations for the partnership while maintai
 
 ---
 
-**Document Created**: December 2024  
+**Document Created**: November 2025  
 **Author**: أُبَيّ سكر (Obai Sukar)  
 **Company**: SS Media Productions  
