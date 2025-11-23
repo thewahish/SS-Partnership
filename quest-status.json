@@ -1,0 +1,21 @@
+{
+  "projectName": "SS-Partnership",
+  "status": "active",
+  "priority": "medium",
+  "progressPercent": 25,
+  "currentFocus": "Partnership documentation and strategy development",
+  "completedTasks": [
+    "Project cloned from GitHub",
+    "Repository structure created"
+  ],
+  "upcomingTasks": [
+    "Define SS Partnership scope and objectives",
+    "Create partnership documentation",
+    "Develop business case and financial models",
+    "Identify key stakeholders and contacts",
+    "Create outreach strategy",
+    "Prepare presentation materials"
+  ],
+  "blockers": [],
+  "notes": "Strategic partnership project. Clarify 'SS' partnership scope and develop similar comprehensive approach as Spacetoon partnership."
+}
