@@ -536,6 +536,201 @@ CoComelon (similar 3D animated kids content) was part of Moonbug's $3B acquisiti
 
 ---
 
+# SECTION 6B: COMPETITIVE LANDSCAPE
+
+## 6B.1 Direct Competitors - Arabic Kids YouTube Channels
+
+### Tier 1: Major Competitors
+
+| Channel | Subscribers | Views | Notes |
+|---------|-------------|-------|-------|
+| **Toyor Al Jannah (طيور الجنة)** | 30M+ | Billions | Jordanian, launched 2008, "Mama Brought a Baby" has 1B+ views |
+| **Spacetoon** | 10M+ | Billions | Dubai-based, pioneer since 2000, broadcasts to 25+ countries |
+| **Adam wa Mishmish** | - | - | Jordanian, catchy songs, Arabic vocabulary focus |
+
+**Sources:**
+- [Wikipedia - Toyor Al-Janah](https://en.wikipedia.org/wiki/Toyor_Al-Janah)
+- [Spacetoon Group](https://spacetoongroup.com/)
+- [Adam wa Mishmish](https://www.adamwamishmish.com/)
+
+### Tier 2: Regional Players
+
+| Channel | Focus | Market |
+|---------|-------|--------|
+| **Ahlan Simsim** | Arabic Sesame Street | Pan-Arab |
+| **Arabic Blooms** | Educational, Egyptian dialect | Egypt-focused |
+| **Kiki Wa Nadoush** | Levantine dialect | Levant region |
+| **Lamsa** | EdTech platform | UAE/Abu Dhabi |
+
+### Tier 3: International Players in Arabic
+
+| Channel | Parent | Strategy |
+|---------|--------|----------|
+| **123 GO! GOLD Arabic** | TheSoul Publishing | Dubbed content |
+| **BIBO TOYS ARA** | - | Toys/unboxing |
+| **MBC3** | MBC Group | Linear TV + digital |
+
+## 6B.2 Competitive Analysis
+
+### Karazah's Differentiators
+
+| Factor | Karazah | Toyor Al Jannah | Spacetoon |
+|--------|---------|-----------------|-----------|
+| **Origin** | US-based (Syrian-American) | Jordan | Dubai |
+| **Content Type** | 3D Animation, original songs | Live-action kids performers | Licensed anime + originals |
+| **Primary Focus** | Arabic language education | Islamic/family values | Entertainment |
+| **Award Recognition** | Mohammed Bin Rashid Award | - | - |
+| **IP Ownership** | 100% original | Original | Mixed (licensed + original) |
+| **Diaspora Focus** | Strong | Moderate | Low |
+
+### Competitive Advantages
+
+1. **Educational Focus:** Unlike entertainment-focused competitors, Karazah specifically targets Arabic language learning
+2. **3D Animation IP:** Fully owned characters enable merchandise, games, VR expansion
+3. **Award Validation:** Only competitor with Mohammed Bin Rashid recognition
+4. **Production Quality:** Founder's Spacetoon/Academy Award background
+5. **Diaspora Market:** Unique positioning for Arabic-speaking families abroad
+6. **Smaller = Nimble:** Can pivot faster than established players
+
+### Market Gap Analysis
+
+> *"While linear channels like OSN TV Kids and MBC 3 continue to be popular in MENA, platforms such as YouTube have also risen up as strong competitors, creating new opportunities for Arab producers."*
+> — [Kidscreen](https://kidscreen.com/2023/09/13/inside-the-growth-of-arab-kids-content-in-the-middle-east/)
+
+> *"With over 420 million native Arabic speakers worldwide, it's striking that only 3% of all online content is produced in Arabic."*
+
+**Key Insight:** Despite large competitors, the Arabic kids content market remains underserved relative to audience size.
+
+---
+
+# SECTION 6C: INVESTOR TARGETING
+
+## 6C.1 Sovereign Wealth Funds
+
+### Public Investment Fund (PIF) - Saudi Arabia
+
+| Metric | Value |
+|--------|-------|
+| **AUM** | $925 Billion |
+| **Media Strategy** | Completed $2B MBC acquisition (2024) |
+| **Kids/Gaming** | SEVEN ($13B family entertainment), Savvy Games Group |
+| **Content Focus** | Arabic content ecosystem, Vision 2030 alignment |
+
+> *"PIF's program intends to support Saudi Arabia's aim to become a globally competitive hub of Technology, Media, and Telecom."*
+
+**Fit for Karazah:** Strong alignment with Arabic content strategy, kids entertainment focus, Vision 2030 cultural objectives.
+
+**Source:** [PIF Official](https://www.pif.gov.sa/en/strategy-and-impact/the-program/telecom-media-and-technology/)
+
+### Mubadala - UAE
+
+| Metric | Value |
+|--------|-------|
+| **Recent Deal** | $10B TWG Global partnership (sports/entertainment) |
+| **Kids Content** | Supported "Mansour: Age of AI" animated series |
+| **Partner** | Abu Dhabi Early Childhood Authority |
+
+**Fit for Karazah:** Active in kids content, early childhood development focus, UAE government connections.
+
+**Source:** [Arab News - Mansour](https://www.arabnews.com/node/2571654/media)
+
+## 6C.2 Venture Capital & Private Equity
+
+### MENA-Focused VC Funds
+
+| Fund | Size | Focus | Fit |
+|------|------|-------|-----|
+| **STV** | $500M | Tech, Saudi-based | EdTech, media |
+| **Wa'ed Ventures** | $500M | Saudi ecosystem | Localization |
+| **Nama Ventures** | Seed | MENA innovation | Early-stage |
+| **500 Startups** | - | QiDZ investor | Kids/EdTech |
+| **Vision Ventures** | - | QiDZ investor | Kids/EdTech |
+| **Misk Innovation** | - | QiDZ investor | Youth focus |
+
+**Source:** [Shizune - Saudi VC Funds](https://shizune.co/investors/media-entertainment-vc-funds-saudi-arabia)
+
+### Global Kids Media Investors
+
+| Investor | Notable Deals | Strategy |
+|----------|---------------|----------|
+| **Blackstone** | Moonbug ($3B) | Kids IP aggregation |
+| **KKR** | Instructure ($4.8B) | EdTech |
+| **Goldman Sachs PE** | Kahoot! ($2B) | Educational gaming |
+| **SoftBank** | Spotter ($1.7B valuation) | YouTube ecosystem |
+
+## 6C.3 Strategic Buyers
+
+### Media Companies
+
+| Company | Rationale | Contact Path |
+|---------|-----------|--------------|
+| **MBC Group** | Shahid needs kids content, operates MBC3 | PIF connection |
+| **Moonbug** | Expanding international, Arabic gap | Direct outreach |
+| **Spacetoon** | Consolidation play, knows founder | Industry network |
+| **OSN** | Streaming competition with Shahid | Direct outreach |
+
+### EdTech / Language Learning
+
+| Company | Rationale | Contact Path |
+|---------|-----------|--------------|
+| **Duolingo** | Arabic expansion, kids market | Direct/investor intro |
+| **Kahoot!** | Educational gaming, Arabic gap | Goldman Sachs connection |
+| **Byju's successor entities** | Kids education focus | Direct outreach |
+
+### Gaming / Interactive
+
+| Company | Rationale | Contact Path |
+|---------|-----------|--------------|
+| **Savvy Games Group** | Saudi gaming strategy, PIF-owned | PIF relationship |
+| **Miniclip/Sybo** | Kids games focus | Direct outreach |
+
+## 6C.4 Government & Development Programs
+
+### Saudi Arabia
+
+| Program | Focus | Opportunity |
+|---------|-------|-------------|
+| **SEVEN** | $13B family entertainment | Live shows, experiences |
+| **Saudi Cultural Development Fund** | $234M film financing | Content production |
+| **National Gaming Strategy** | 250 companies, 39K jobs | Game development |
+
+### UAE
+
+| Program | Focus | Opportunity |
+|---------|-------|-------------|
+| **Anjal Z (ADIO/ECA)** | Early childhood startups | EdTech fellowship |
+| **twofour54** | Media production hub | Production services |
+| **Hub71** | Abu Dhabi startup ecosystem | Growth capital |
+
+**Source:** [ECA - Anjal Z](https://www.eca.gov.ae/anjal-z)
+
+## 6C.5 Outreach Strategy
+
+### Priority 1: Strategic Buyers (Highest Fit)
+1. **MBC Group/Shahid** - Arabic content gap, PIF backing
+2. **Moonbug Entertainment** - Kids IP aggregator, proven model
+3. **Spacetoon Group** - Industry synergies, founder relationship
+
+### Priority 2: Sovereign Wealth
+1. **PIF** - Media strategy alignment, Vision 2030
+2. **Mubadala** - Kids content interest, UAE government
+
+### Priority 3: Venture Capital
+1. **STV** - Saudi focus, media interest
+2. **500 Startups** - Prior QiDZ investment
+3. **Misk Innovation** - Youth/education focus
+
+### Key Messaging by Investor Type
+
+| Investor Type | Key Message |
+|---------------|-------------|
+| **Sovereign Wealth** | Cultural preservation, Arabic content gap, Vision 2030 alignment |
+| **Strategic Media** | IP acquisition, audience expansion, content library |
+| **VC/PE** | EdTech growth multiples, MENA market opportunity, expansion potential |
+| **EdTech** | Language learning TAM, Arabic speaker base, proven engagement |
+
+---
+
 # SECTION 7: INVESTMENT THESIS
 
 ## 7.1 Why Invest Now
@@ -659,6 +854,21 @@ CoComelon (similar 3D animated kids content) was part of Moonbug's $3B acquisiti
 31. Wizdeo Analytics: https://analytics.wizdeo.com/
 32. Social Blade: https://socialblade.com/
 
+### Competitive Landscape
+33. Wikipedia - Toyor Al-Janah: https://en.wikipedia.org/wiki/Toyor_Al-Janah
+34. Spacetoon Group: https://spacetoongroup.com/
+35. Adam wa Mishmish: https://www.adamwamishmish.com/
+36. Campaign ME - Toyor Al Jannah: https://campaignme.com/agency/toyor-al-jannah/
+
+### Investor Research
+37. PIF - Telecom Media Tech: https://www.pif.gov.sa/en/strategy-and-impact/the-program/telecom-media-and-technology/
+38. Arab News - Mansour Animation: https://www.arabnews.com/node/2571654/media
+39. Shizune - Saudi VC Funds: https://shizune.co/investors/media-entertainment-vc-funds-saudi-arabia
+40. ECA - Anjal Z Program: https://www.eca.gov.ae/anjal-z
+41. The Startup Scene - QiDZ: https://thestartupscene.me/INVESTMENTS/UAE-s-Entertainment-and-Education-for-Children-Startup-QiDZ-Raises-1-Million-Seed-Round
+42. Deadline - PIF MBC: https://deadline.com/2025/09/saudi-arabia-state-investment-fund-pif-54-mbc-group-1236547796/
+43. Media C-Suite - Saudi Strategy: https://mediacsuite.com/saudis-new-investment-strategy-in-media-entertainment/
+
 ---
 
 ## Document History
@@ -666,6 +876,7 @@ CoComelon (similar 3D animated kids content) was part of Moonbug's $3B acquisiti
 | Version | Date | Author | Notes |
 |---------|------|--------|-------|
 | 1.0 | December 2025 | Research Team | Initial comprehensive research |
+| 1.1 | December 2025 | Research Team | Added competitive landscape, investor targeting, 43 sources |
 
 ---
 
